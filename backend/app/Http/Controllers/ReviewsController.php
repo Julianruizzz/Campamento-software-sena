@@ -14,7 +14,7 @@ class ReviewsController extends Controller
      */
     public function index()
     {
-        //return "Aquí se mostrarán todos los Courses";
+        //return "Aquí se mostrarán todos los Reviews";
         return Reviews::all();
     }
 
